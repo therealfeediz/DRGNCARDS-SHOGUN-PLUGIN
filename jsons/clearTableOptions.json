@@ -1,6 +1,0 @@
-{
-    "clearTableOptions": [
-        {"label": "id:labelMarkAsComplete", "actionList": ["SET", "/victoryState", "complete"]},
-        {"label": "id:labelMarkAsIncomplete", "actionList": ["SET", "/victoryState", "incomplete"]}
-    ]
-}
