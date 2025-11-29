@@ -1,6 +1,11 @@
 {
     "playerCountMenu": [
         {
+            "label": "shogun",
+            "numPlayers": 1,
+            "layoutId": "shogun"
+        },        
+        {
             "label": "1",
             "numPlayers": 1,
             "layoutId": "crazyEights"

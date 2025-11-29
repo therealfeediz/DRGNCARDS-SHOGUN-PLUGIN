@@ -1,5 +1,20 @@
 {
     "labels": {
+        "shogunStarterDeck": {
+            "English": "Shogun Starter Deck"
+        },
+        "battleGround": {
+            "English": "Battle Ground"
+        },
+        "villainPlayArea": {
+            "English": "Villain Play Area"
+        },
+        "villainDiscard": {
+            "English": "Villain Discard"
+        },
+        "villainDeck": {
+            "English": "Villain Deck"
+        },
         "warDeck": {
             "English": "War Deck"
         },
@@ -134,6 +149,9 @@
         },
         "player1PlayArea": {
             "English": "P1 Play Area"
+        },
+        "player1HeroArea": {
+            "English": "P1 Hero Area"
         },
         "player1Discard": {
             "English": "Player1 Discard"

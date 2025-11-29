@@ -1,5 +1,41 @@
 {
     "groups": {
+        "villainDeck": {
+            "groupType": "deck",
+            "label": "id:villainDeck", 
+            "tableLabel": "id:deck",
+            "onCardEnter": {
+                "controller": "shared",
+                "deckGroupId": "villainDeck",
+                "discardGroupId": "villainDiscard"
+            }
+        },
+        "villainDiscard": {
+            "groupType": "discard",
+            "label": "id:villainDiscard", 
+            "tableLabel": "id:discard",
+            "onCardEnter": {
+                "controller": "shared",
+                "deckGroupId": "villainDeck",
+                "discardGroupId": "villainDiscard"
+            }
+        },
+        "villainPlayArea": {
+            "groupType": "inPlay",
+            "label": "id:villainPlayArea", 
+            "tableLabel": "Enemy Area",
+            "onCardEnter": {
+                "controller": "shared"
+            }
+        },
+        "battleGround": {
+            "groupType": "inPlay",
+            "label": "id:battleGround", 
+            "tableLabel": "Battle Ground",
+            "onCardEnter": {
+                "controller": "shared"
+            }
+        },
         "sharedFreeArea": {
             "groupType": "inPlay",
             "label": "id:sharedFreeArea", 
@@ -23,7 +59,7 @@
             "tableLabel": "id:discard",
             "onCardEnter": {
                 "controller": "shared",
-                "deckGroupId": "sharedDeck",
+                "deckGroupId": "sharedMainDeck",
                 "discardGroupId": "sharedMainDiscard"
             }
         },
@@ -54,6 +90,7 @@
                 "deckGroupId": "player1Deck",
                 "discardGroupId": "player1Discard"
             }
+            
         },
         "player1Discard": {
             "groupType": "discard",
@@ -69,6 +106,15 @@
             "groupType": "inPlay",
             "label": "id:player1PlayArea", 
             "tableLabel": "id:player1PlayArea",
+            "canHaveAttachments": true,
+            "onCardEnter": {
+                "controller": "player1"
+            }
+        },
+        "player1HeroArea": {
+            "groupType": "inPlay",
+            "label": "id:player1HeroArea", 
+            "tableLabel": "id:player1HeroArea",
             "canHaveAttachments": true,
             "onCardEnter": {
                 "controller": "player1"

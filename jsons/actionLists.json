@@ -56,6 +56,20 @@
                 ]
             ]
         ],
+        "loadedShogunStarterDeck": [
+            ["SET", "/gameMode", "shogun"],
+            ["SET_LAYOUT", "shared", "shogun"],
+            ["LOG", "SHOGUN STARTED..."],
+            ["SHUFFLE_GROUP", "player1Deck"],
+            ["LOG", "Dealing 5 cards to each player..."],
+            ["FOR_EACH_VAL", "$PLAYER_I", "$PLAYER_ORDER", [
+                ["LOG", "{{$PLAYER_I}} was dealt 1 card."],
+                ["MOVE_STACKS", "{{$PLAYER_I}}Deck", "{{$PLAYER_I}}Hand", 1]
+            ]],
+            ["LOG", "Revealing first villain card..."],
+            ["MOVE_STACKS", "villainDeck", "battleGround", 1],
+            ["LOG", "{{$PLAYER_ORDER.[0]}} goes first."]
+        ],
         "loadedCrazyEightsDeck": [
             ["SET", "/gameMode", "crazyEights"],
             ["SET_LAYOUT", "shared", "crazyEights"],

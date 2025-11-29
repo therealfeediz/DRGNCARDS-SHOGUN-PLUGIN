@@ -1,5 +1,66 @@
 {
     "preBuiltDecks": {
+        "shogunStarterDeck": {
+            "label": "id:shogunStarterDeck",
+            "cards": [
+                {
+                    "databaseId": "villain_id1",
+                    "quantity": 1,
+                    "loadGroupId": "villainPlayArea"
+                },
+                {
+                    "databaseId": "encounter_id1",
+                    "quantity": 1,
+                    "loadGroupId": "villainDeck"
+                },
+                {
+                    "databaseId": "status_id1",
+                    "quantity": 1,
+                    "loadGroupId": "villainDeck"
+                },
+                {
+                    "databaseId": "minion_id1",
+                    "quantity": 1,
+                    "loadGroupId": "villainDeck"
+                },
+                {
+                    "databaseId": "location_id1",
+                    "quantity": 1,
+                    "loadGroupId": "villainDeck"
+                },
+                {
+                    "databaseId": "hero_id1", 
+                    "quantity": 1, 
+                    "loadGroupId": "player1HeroArea"
+                },
+                {
+                    "databaseId": "ally_id1",
+                    "quantity": 1,
+                    "loadGroupId": "player1Deck"
+                },
+                {
+                    "databaseId": "upgrade_id1",
+                    "quantity": 1,
+                    "loadGroupId": "player1Deck"
+                },
+                {
+                    "databaseId": "support_id1",
+                    "quantity": 1,
+                    "loadGroupId": "player1Deck"
+                },
+                {
+                    "databaseId": "event_id1",
+                    "quantity": 1,
+                    "loadGroupId": "player1Deck"
+                },
+                {
+                    "databaseId": "event_id2",
+                    "quantity": 1,
+                    "loadGroupId": "player1Deck"
+                }
+            ],
+            "postLoadActionList": "loadedShogunStarterDeck"
+        },
         "crazyEightsDeck": {
             "label": "id:crazyEightsDeck",
             "cards": [

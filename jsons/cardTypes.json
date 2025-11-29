@@ -3,6 +3,16 @@
         "Ace":          {"width":  0.72, "height": 1.0, "tokens": ["testToken1", "testToken2"]},
         "Number":       {"width":  0.72, "height": 1.0, "tokens": ["testToken1", "testToken2"]},
         "Face":         {"width":  0.72, "height": 1.0, "tokens": ["testToken1", "testToken2"]},
+        "Hero":         {"width":  0.72, "height": 1.0, "tokens": ["testToken1", "testToken2"]},
+        "Ally":         {"width":  0.72, "height": 1.0, "tokens": ["testToken1", "testToken2"]},
+        "Upgrade":         {"width":  0.72, "height": 1.0, "tokens": ["testToken1", "testToken2"]},
+        "Support":         {"width":  0.72, "height": 1.0, "tokens": ["testToken1", "testToken2"]},
+        "Event":         {"width":  0.72, "height": 1.0, "tokens": ["testToken1", "testToken2"]},
+        "Villain":         {"width":  0.72, "height": 1.0, "tokens": ["testToken1", "testToken2"]},
+        "Encounter":         {"width":  0.72, "height": 1.0, "tokens": ["testToken1", "testToken2"]},
+        "Status":         {"width":  0.72, "height": 1.0, "tokens": ["testToken1", "testToken2"]},
+        "Minion":         {"width":  0.72, "height": 1.0, "tokens": ["testToken1", "testToken2"]},
+        "Location":         {"width":  0.72, "height": 1.0, "tokens": ["testToken1", "testToken2"]},
         "Joker":        {"width":  0.72, "height": 1.0, "tokens": ["testToken1", "testToken2"]}
     }
 }

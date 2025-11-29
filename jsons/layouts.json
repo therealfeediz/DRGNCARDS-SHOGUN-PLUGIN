@@ -1,5 +1,29 @@
 {
     "layouts": {
+        "shogun": {
+            "testBorders": true,
+            "cardSize": 16,
+            "rowSpacing": 3,
+            "chat": {"left": "75%", "top": "4/5", "width": "23%", "height": "1/5"},
+            "regions": {
+                "villainPlayArea": {"groupId": "villainPlayArea","type": "free", "direction": "horizontal", "left":  "0%", "top":  "0/5", "width": "80%", "height": "1/5"},
+                "villainDeck":      {"groupId": "villainDeck",    "type": "pile","direction": "horizontal", "left": "80%", "top": "0/5", "width": "10%", "height": "1/5"},
+                "villainDiscard":   {"groupId": "villainDiscard", "type": "pile","direction": "horizontal", "left": "90%", "top": "0/5", "width": "10%", "height": "1/5"},
+                "battleGround":       {"groupId": "battleGround",       "type": "free","direction": "horizontal", "left": "0%", "top":  "1/5", "width": "100%",  "height": "1/5"},
+                "player1Hand":     {"groupId": "player1Hand",   "type": "fan", "direction": "horizontal", "left":  "0%", "top": "4/5", "width":  "55%", "height": "1/5", "style": {"background": "rgba(0, 0, 0, 0.3)"}},
+                "player1Deck":        {"groupId": "player1Deck",      "type": "pile","direction": "horizontal", "left": "55%", "top": "4/5", "width":  "10%","height": "1/5", "style": {"background": "rgba(0, 0, 0, 0.3)"}},
+                "player1Discard":     {"groupId": "player1Discard",   "type": "pile","direction": "horizontal", "left": "65%", "top": "4/5", "width":  "10%","height": "1/5", "style": {"background": "rgba(0, 0, 0, 0.3)"}},
+                "player1HeroArea":    {"groupId": "player1HeroArea",  "type": "row", "direction": "horizontal", "left":  "0%", "top":  "2/5", "width": "75%", "height": "1/5"},
+                "player1PlayArea":    {"groupId": "player1PlayArea",  "type": "row", "direction": "horizontal", "left":  "0%", "top":  "3/5", "width": "75%", "height": "1/5"},
+                "sideRegion":      {"groupId": "sharedSetAside","type": "fan", "direction": "vertical",   "left": "90%", "top": "0/5", "width":  "10%", "height": "4/5", "style": {"background": "rgba(0, 0, 0, 0.3)"}, "visible": false}
+            },
+            "tableButtons": {
+                "sharedSetAside": {
+                  "actionList": ["TOGGLE_SIDE_REGION", "sharedSetAside"],
+                  "label": "SA", "left": "98%", "top": "80%", "width": "2%", "height": "5%"
+                }
+            }
+        },
         "crazyEights": {
             "cardSize": 16,
             "rowSpacing": 3,
