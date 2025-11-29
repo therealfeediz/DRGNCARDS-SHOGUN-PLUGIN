@@ -1,15 +1,15 @@
 databaseId	name	imageUrl	cardBack	type	suit	rank	numberValue
-hero_id1	Kenji	https://dragncards-lotrlcg.s3.amazonaws.com/cards/English/51223bd0-ffd1-11df-a976-0801200c9001.jpg	Player	Hero	clubs	13	1
-ally_id1	Yuki	https://dragncards-lotrlcg.s3.amazonaws.com/cards/English/51223bd0-ffd1-11df-a976-0801200c9014.jpg	Player	Ally	clubs	11	3
-upgrade_id1	Katana	https://dragncards-lotrlcg.s3.amazonaws.com/cards/English/51223bd0-ffd1-11df-a976-0801200c9041.jpg	Player	Upgrade	clubs	10	4
-support_id1	Tranquil Garden	https://dragncards-lotrlcg.s3.amazonaws.com/cards/English/51223bd0-ffd1-11df-a976-0801200c9055.jpg	Player	Support	clubs	9	5
-event_id1	Inner Strength	https://dragncards-lotrlcg.s3.amazonaws.com/cards/English/51223bd0-ffd1-11df-a976-0801200c9053.jpg	Player	Event	clubs	8	6
-event_id2	Iron Will	https://dragncards-lotrlcg.s3.amazonaws.com/cards/English/51223bd0-ffd1-11df-a976-0801200c9048.jpg	Player	Event	clubs	7	7
-villain_id1	Shinjo	https://dragncards-lotrlcg.s3.amazonaws.com/cards/English/51223bd0-ffd1-11df-a976-0801200c9090.jpg	Villain	Villain	clubs	6	8
-encounter_id1	Savage Swing	https://dragncards-lotrlcg.s3.amazonaws.com/cards/English/51223bd0-ffd1-11df-a976-0801200c9079.jpg	Villain	Encounter	clubs	5	9
-status_id1	Murderous Rage	https://dragncards-lotrlcg.s3.amazonaws.com/cards/English/51223bd0-ffd1-11df-a976-0801200c9104.jpg	Villain	Status	clubs	5	9
-minion_id1	Oni Demon	https://dragncards-lotrlcg.s3.amazonaws.com/cards/English/51223bd0-ffd1-11df-a976-0801200c9096.jpg	Villain	Minion	clubs	4	10
-location_id1	Unstable Ground	https://dragncards-lotrlcg.s3.amazonaws.com/cards/English/51223bd0-ffd1-11df-a976-0801200c9099.jpg	Villain	Location	clubs	4	10
+hero_id1	Kenji	https://github.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/blob/main/cards/kenji.jpg	Player	Hero	clubs	13	1
+ally_id1	Yuki	https://github.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/blob/main/cards/yuki.jpg	Player	Ally	clubs	11	3
+upgrade_id1	Katana	https://github.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/blob/main/cards/katana.jpg	Player	Upgrade	clubs	10	4
+support_id1	Tranquil Garden	https://github.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/blob/main/cards/tranquil_garden.jpg	Player	Support	clubs	9	5
+event_id1	Inner Strength	https://github.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/blob/main/cards/inner_strength.jpg	Player	Event	clubs	8	6
+event_id2	Iron Will	https://github.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/blob/main/cards/iron_will.jpg	Player	Event	clubs	7	7
+villain_id1	Shinjo	https://github.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/blob/main/cards/shinjo.jpg	Villain	Villain	clubs	6	8
+encounter_id1	Savage Swing	https://github.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/blob/main/cards/savage_swing.jpg	Villain	Encounter	clubs	5	9
+status_id1	Murderous Rage	https://github.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/blob/main/cards/murderous_rage.jpg	Villain	Status	clubs	5	9
+minion_id1	Oni Demon	https://github.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/blob/main/cards/oni_demon.jpg	Villain	Minion	clubs	4	10
+location_id1	Unstable Ground	https://github.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/blob/main/cards/unstable_ground.jpg	Villain	Location	clubs	4	10
 ace_of_clubs	ace of clubs	ace_of_clubs.png	red_card_back	Ace	clubs	13	1
 2_of_clubs	2 of clubs	2_of_clubs.png	red_card_back	Number	clubs	12	2
 3_of_clubs	3 of clubs	3_of_clubs.png	red_card_back	Number	clubs	11	3
