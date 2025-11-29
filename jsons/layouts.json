@@ -9,6 +9,8 @@
                 "sharedMainDeck":      {"groupId": "sharedMainDeck",    "type": "pile","direction": "horizontal", "left": "40%", "top": "2/5", "width": "10%", "height": "1/5"},
                 "sharedMainDiscard":   {"groupId": "sharedMainDiscard", "type": "pile","direction": "horizontal", "left": "50%", "top": "2/5", "width": "10%", "height": "1/5"},
                 "playerNHand":     {"groupId": "playerNHand",   "type": "fan", "direction": "horizontal", "left":  "0%", "top": "4/5", "width":  "75%", "height": "1/5", "style": {"background": "rgba(0, 0, 0, 0.3)"}},
+                "player1Deck":        {"groupId": "player1Deck",      "type": "pile","direction": "horizontal", "left": "40%", "top": "4/5", "width":  "10%","height": "1/5", "style": {"background": "rgba(0, 0, 0, 0.3)"}},
+                "player1Discard":     {"groupId": "player1Discard",   "type": "pile","direction": "horizontal", "left": "50%", "top": "4/5", "width":  "10%","height": "1/5", "style": {"background": "rgba(0, 0, 0, 0.3)"}},
                 "sideRegion":      {"groupId": "sharedSetAside","type": "fan", "direction": "vertical",   "left": "90%", "top": "0/5", "width":  "10%", "height": "4/5", "style": {"background": "rgba(0, 0, 0, 0.3)"}, "visible": false}
             },
             "tableButtons": {
