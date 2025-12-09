@@ -1,96 +1,256 @@
 {
     "actionLists": {
         "toggleExhaust": [
-            ["COND",
-                ["AND", ["EQUAL", "$ACTIVE_CARD.rotation", 90], "$ACTIVE_CARD.inPlay"],
+            [
+                "COND",
                 [
-                    ["LOG", "{{$ALIAS_N}} readied {{$ACTIVE_FACE.name}}."],
-                    ["SET", "/cardById/$ACTIVE_CARD_ID/rotation", 0],
-                    ["SET", "/cardById/$ACTIVE_CARD_ID/exhausted", false]
+                    "AND",
+                    [
+                        "EQUAL",
+                        "$ACTIVE_CARD.rotation",
+                        90
+                    ],
+                    "$ACTIVE_CARD.inPlay"
                 ],
-                ["AND", ["EQUAL", "$ACTIVE_CARD.rotation", 0], "$ACTIVE_CARD.inPlay"],
                 [
-                    ["LOG", "{{$ALIAS_N}} exhausted {{$ACTIVE_FACE.name}}."],
-                    ["SET", "/cardById/$ACTIVE_CARD_ID/rotation", 90],
-                    ["SET", "/cardById/$ACTIVE_CARD_ID/exhausted", true]
+                    [
+                        "LOG",
+                        "{{$ALIAS_N}} readied {{$ACTIVE_FACE.name}}."
+                    ],
+                    [
+                        "SET",
+                        "/cardById/$ACTIVE_CARD_ID/rotation",
+                        0
+                    ],
+                    [
+                        "SET",
+                        "/cardById/$ACTIVE_CARD_ID/exhausted",
+                        false
+                    ]
+                ],
+                [
+                    "AND",
+                    [
+                        "EQUAL",
+                        "$ACTIVE_CARD.rotation",
+                        0
+                    ],
+                    "$ACTIVE_CARD.inPlay"
+                ],
+                [
+                    [
+                        "LOG",
+                        "{{$ALIAS_N}} exhausted {{$ACTIVE_FACE.name}}."
+                    ],
+                    [
+                        "SET",
+                        "/cardById/$ACTIVE_CARD_ID/rotation",
+                        90
+                    ],
+                    [
+                        "SET",
+                        "/cardById/$ACTIVE_CARD_ID/exhausted",
+                        true
+                    ]
                 ]
             ]
         ],
         "flipCard": [
-            ["COND",
-                ["EQUAL", "$ACTIVE_CARD.currentSide", "A"],
+            [
+                "COND",
                 [
-                    ["LOG", "{{$ALIAS_N}} flipped {{$ACTIVE_FACE.name}} facedown."],
-                    ["SET", "/cardById/$ACTIVE_CARD_ID/currentSide", "B"]    
+                    "EQUAL",
+                    "$ACTIVE_CARD.currentSide",
+                    "A"
+                ],
+                [
+                    [
+                        "LOG",
+                        "{{$ALIAS_N}} flipped {{$ACTIVE_FACE.name}} facedown."
+                    ],
+                    [
+                        "SET",
+                        "/cardById/$ACTIVE_CARD_ID/currentSide",
+                        "B"
+                    ]
                 ],
                 true,
                 [
-                    ["SET", "/cardById/$ACTIVE_CARD_ID/currentSide", "A"],
-                    ["LOG", "{{$ALIAS_N}} flipped {{$ACTIVE_FACE.name}} faceup."]
+                    [
+                        "SET",
+                        "/cardById/$ACTIVE_CARD_ID/currentSide",
+                        "A"
+                    ],
+                    [
+                        "LOG",
+                        "{{$ALIAS_N}} flipped {{$ACTIVE_FACE.name}} faceup."
+                    ]
                 ]
             ]
         ],
         "discardCard": [
-            ["COND",
-                ["EQUAL", "$ACTIVE_CARD.discardGroupId", null],
-                ["LOG", "{{$ALIAS_N}} failed to discard {{$ACTIVE_FACE.name}} because it is not associated with a discard pile. Please drag the card instead."],
-                ["TRUE"],
+            [
+                "COND",
                 [
-                    ["LOG", "{{$ALIAS_N}} discarded {{$ACTIVE_CARD.sides.A.name}}."],
-                    ["MOVE_CARD", "$ACTIVE_CARD_ID", "$ACTIVE_CARD.discardGroupId", 0]
+                    "EQUAL",
+                    "$ACTIVE_CARD.discardGroupId",
+                    null
+                ],
+                [
+                    "LOG",
+                    "{{$ALIAS_N}} failed to discard {{$ACTIVE_FACE.name}} because it is not associated with a discard pile. Please drag the card instead."
+                ],
+                [
+                    "TRUE"
+                ],
+                [
+                    [
+                        "LOG",
+                        "{{$ALIAS_N}} discarded {{$ACTIVE_CARD.sides.A.name}}."
+                    ],
+                    [
+                        "MOVE_CARD",
+                        "$ACTIVE_CARD_ID",
+                        "$ACTIVE_CARD.discardGroupId",
+                        0
+                    ]
                 ]
             ]
         ],
         "shuffleIntoDeck": [
-            ["MOVE_CARD", "$ACTIVE_CARD_ID", "$ACTIVE_CARD.deckGroupId", 0],
-            ["VAR", "$GROUP_ID", "$ACTIVE_CARD.deckGroupId"],
-            ["SHUFFLE_GROUP", "$GROUP_ID"],
-            ["LOG", "{{$ALIAS_N}} shuffled {{$ACTIVE_FACE.name}} into {{$GAME.groupById.$GROUP_ID.label}}."]
+            [
+                "MOVE_CARD",
+                "$ACTIVE_CARD_ID",
+                "$ACTIVE_CARD.deckGroupId",
+                0
+            ],
+            [
+                "VAR",
+                "$GROUP_ID",
+                "$ACTIVE_CARD.deckGroupId"
+            ],
+            [
+                "SHUFFLE_GROUP",
+                "$GROUP_ID"
+            ],
+            [
+                "LOG",
+                "{{$ALIAS_N}} shuffled {{$ACTIVE_FACE.name}} into {{$GAME.groupById.$GROUP_ID.label}}."
+            ]
         ],
         "detach": [
-            ["COND",
-                ["GREATER_THAN", "$ACTIVE_CARD.cardIndex", 0],
+            [
+                "COND",
                 [
-                    ["LOG", "{{$ALIAS_N}} detached {{$ACTIVE_FACE.name}}."],
-                    ["MOVE_CARD", "$ACTIVE_CARD_ID", "$ACTIVE_CARD.groupId", ["ADD", "$ACTIVE_CARD.stackIndex", 1]]
+                    "GREATER_THAN",
+                    "$ACTIVE_CARD.cardIndex",
+                    0
+                ],
+                [
+                    [
+                        "LOG",
+                        "{{$ALIAS_N}} detached {{$ACTIVE_FACE.name}}."
+                    ],
+                    [
+                        "MOVE_CARD",
+                        "$ACTIVE_CARD_ID",
+                        "$ACTIVE_CARD.groupId",
+                        [
+                            "ADD",
+                            "$ACTIVE_CARD.stackIndex",
+                            1
+                        ]
+                    ]
                 ]
             ]
         ],
         "loadedShogunStarterDeck": [
-            ["SET", "/gameMode", "shogun"],
-            ["SET_LAYOUT", "shared", "shogun"],
-            ["LOG", "SHOGUN STARTED..."],
-            ["SHUFFLE_GROUP", "player1Deck"],
-            ["LOG", "Dealing 5 cards to each player..."],
-            ["FOR_EACH_VAL", "$PLAYER_I", "$PLAYER_ORDER", [
-                ["LOG", "{{$PLAYER_I}} was dealt 1 card."],
-                ["MOVE_STACKS", "{{$PLAYER_I}}Deck", "{{$PLAYER_I}}Hand", 1]
-            ]],
-            ["LOG", "Revealing first villain card..."],
-            ["MOVE_STACKS", "villainDeck", "battleGround", 1],
-            ["LOG", "{{$PLAYER_ORDER.[0]}} goes first."]
-        ],
-        "loadedCrazyEightsDeck": [
-            ["SET", "/gameMode", "crazyEights"],
-            ["SET_LAYOUT", "shared", "crazyEights"],
-            ["LOG", "Dealing 5 cards to each player..."],
-            ["FOR_EACH_VAL", "$PLAYER_I", "$PLAYER_ORDER", [
-                ["LOG", "{{$PLAYER_I}} was dealt 5 cards."],
-                ["MOVE_STACKS", "sharedMainDeck", "{{$PLAYER_I}}Hand", 5]
-            ]],
-            ["LOG", "Dealing 1 card to the discard pile..."],
-            ["MOVE_STACKS", "sharedMainDeck", "sharedMainDiscard", 1],
-            ["LOG", "{{$PLAYER_ORDER.[0]}} goes first."]
-        ],
-        "loadedWarDeck": [
-            ["SET", "/gameMode", "war"],
-            ["SET_LAYOUT", "shared", "war"],
-            ["LOG", "Dividing the deck among the players"],
-            ["VAR", "$CURRENT_PLAYER", "{{$PLAYER_ORDER.[0]}}"],
-            ["WHILE", ["GREATER_THAN", ["LENGTH", "$GAME.groupById.sharedMainDeck.stackIds"], 0],
+            [
+                "SET",
+                "/gameMode",
+                "shogun"
+            ],
+            [
+                "SET_LAYOUT",
+                "shared",
+                "shogun"
+            ],
+            [
+                "LOG",
+                "SHOGUN STARTED..."
+            ],
+            [
+                "SHUFFLE_GROUP",
+                "player1Deck"
+            ],
+            [
+                "LOG",
+                "Dealing 5 cards to each player..."
+            ],
+            [
+                "FOR_EACH_VAL",
+                "$PLAYER_I",
+                "$PLAYER_ORDER",
                 [
-                    ["MOVE_STACKS", "sharedMainDeck", "{{$CURRENT_PLAYER}}Deck", 1],
-                    ["UPDATE_VAR", "$CURRENT_PLAYER", ["NEXT_PLAYER", "$CURRENT_PLAYER"]]
+                    [
+                        "LOG",
+                        "{{$PLAYER_I}} was dealt 1 card."
+                    ],
+                    [
+                        "MOVE_STACKS",
+                        "{{$PLAYER_I}}Deck",
+                        "{{$PLAYER_I}}Hand",
+                        1
+                    ]
+                ]
+            ],
+            [
+                "LOG",
+                "Revealing first villain card..."
+            ],
+            [
+                "MOVE_STACKS",
+                "villainDeck",
+                "battleGround",
+                1
+            ],
+            [
+                "LOG",
+                "{{$PLAYER_ORDER.[0]}} goes first."
+            ]
+        ],
+        "drawBoost": [
+            [
+                "VAR",
+                "$TOP_VILLAIN_ID",
+                [
+                    "GET_CARD_ID",
+                    "villainDeck",
+                    0,
+                    0
+                ]
+            ],
+            [
+                "COND",
+                [
+                    "EQUAL",
+                    "$TOP_VILLAIN_ID",
+                    null
+                ],
+                [
+                    "LOG",
+                    "No cards left in the villain deck."
+                ],
+                true,
+                [
+                    [
+                        "MOVE_CARD",
+                        "$TOP_VILLAIN_ID",
+                        "battleGround",
+                        -1,
+                        0,
+                        {"allowFlip": false}
+                    ]
                 ]
             ]
         ]

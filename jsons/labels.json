@@ -21,6 +21,9 @@
         "boost": {
             "English": "Boost"
         },
+        "drawBoost": {
+            "English": "Draw Boost Card"
+        },
         "warDeck": {
             "English": "War Deck"
         },

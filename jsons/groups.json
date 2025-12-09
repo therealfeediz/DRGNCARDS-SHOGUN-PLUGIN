@@ -2,7 +2,7 @@
     "groups": {
         "villainDeck": {
             "groupType": "deck",
-            "label": "id:villainDeck", 
+            "label": "id:villainDeck",
             "tableLabel": "id:deck",
             "onCardEnter": {
                 "controller": "shared",
@@ -12,7 +12,7 @@
         },
         "villainDiscard": {
             "groupType": "discard",
-            "label": "id:villainDiscard", 
+            "label": "id:villainDiscard",
             "tableLabel": "id:discard",
             "onCardEnter": {
                 "controller": "shared",
@@ -22,7 +22,7 @@
         },
         "villainPlayArea": {
             "groupType": "inPlay",
-            "label": "id:villainPlayArea", 
+            "label": "id:villainPlayArea",
             "tableLabel": "Enemy Area",
             "onCardEnter": {
                 "controller": "shared"
@@ -30,7 +30,7 @@
         },
         "battleGround": {
             "groupType": "inPlay",
-            "label": "id:battleGround", 
+            "label": "id:battleGround",
             "tableLabel": "Battle Ground",
             "onCardEnter": {
                 "controller": "shared"
@@ -38,14 +38,13 @@
         },
         "sharedFreeArea": {
             "groupType": "inPlay",
-            "label": "id:sharedFreeArea", 
+            "label": "id:sharedFreeArea",
             "tableLabel": "",
-            "onCardEnter": {
-            }
+            "onCardEnter": {}
         },
         "sharedMainDeck": {
             "groupType": "deck",
-            "label": "id:sharedMainDeck", 
+            "label": "id:sharedMainDeck",
             "tableLabel": "id:deck",
             "onCardEnter": {
                 "controller": "shared",
@@ -55,7 +54,7 @@
         },
         "sharedMainDiscard": {
             "groupType": "discard",
-            "label": "id:sharedMainDiscard", 
+            "label": "id:sharedMainDiscard",
             "tableLabel": "id:discard",
             "onCardEnter": {
                 "controller": "shared",
@@ -65,7 +64,7 @@
         },
         "sharedSetAside": {
             "groupType": "discard",
-            "label": "id:sharedSetAside", 
+            "label": "id:sharedSetAside",
             "tableLabel": "id:sharedSetAside",
             "onCardEnter": {
                 "controller": "shared"
@@ -73,7 +72,7 @@
         },
         "player1Hand": {
             "groupType": "hand",
-            "label": "id:player1Hand", 
+            "label": "id:player1Hand",
             "tableLabel": "id:hand",
             "onCardEnter": {
                 "controller": "player1",
@@ -83,18 +82,17 @@
         },
         "player1Deck": {
             "groupType": "deck",
-            "label": "id:player1Deck", 
+            "label": "id:player1Deck",
             "tableLabel": "id:deck",
             "onCardEnter": {
                 "controller": "player1",
                 "deckGroupId": "player1Deck",
                 "discardGroupId": "player1Discard"
             }
-            
         },
         "player1Discard": {
             "groupType": "discard",
-            "label": "id:player1Discard", 
+            "label": "id:player1Discard",
             "tableLabel": "id:discard",
             "onCardEnter": {
                 "controller": "player1",
@@ -104,7 +102,7 @@
         },
         "player1PlayArea": {
             "groupType": "inPlay",
-            "label": "id:player1PlayArea", 
+            "label": "id:player1PlayArea",
             "tableLabel": "id:player1PlayArea",
             "canHaveAttachments": true,
             "onCardEnter": {
@@ -113,7 +111,7 @@
         },
         "player1HeroArea": {
             "groupType": "inPlay",
-            "label": "id:player1HeroArea", 
+            "label": "id:player1HeroArea",
             "tableLabel": "id:player1HeroArea",
             "canHaveAttachments": true,
             "onCardEnter": {
@@ -122,7 +120,7 @@
         },
         "player2Hand": {
             "groupType": "hand",
-            "label": "id:player2Hand", 
+            "label": "id:player2Hand",
             "tableLabel": "id:hand",
             "onCardEnter": {
                 "controller": "player2",
@@ -132,7 +130,7 @@
         },
         "player2Deck": {
             "groupType": "deck",
-            "label": "id:player2Deck", 
+            "label": "id:player2Deck",
             "tableLabel": "id:deck",
             "onCardEnter": {
                 "controller": "player2",
@@ -142,7 +140,7 @@
         },
         "player2Discard": {
             "groupType": "discard",
-            "label": "id:player2Discard", 
+            "label": "id:player2Discard",
             "tableLabel": "id:discard",
             "onCardEnter": {
                 "controller": "player2",
@@ -152,7 +150,7 @@
         },
         "player2PlayArea": {
             "groupType": "inPlay",
-            "label": "id:player2PlayArea", 
+            "label": "id:player2PlayArea",
             "tableLabel": "id:player2PlayArea",
             "canHaveAttachments": true,
             "onCardEnter": {
@@ -161,7 +159,7 @@
         },
         "player3Hand": {
             "groupType": "hand",
-            "label": "id:player3Hand", 
+            "label": "id:player3Hand",
             "tableLabel": "id:hand",
             "onCardEnter": {
                 "controller": "player3",
@@ -171,7 +169,7 @@
         },
         "player3Deck": {
             "groupType": "deck",
-            "label": "id:player3Deck", 
+            "label": "id:player3Deck",
             "tableLabel": "id:deck",
             "onCardEnter": {
                 "controller": "player3",
@@ -181,7 +179,7 @@
         },
         "player3Discard": {
             "groupType": "discard",
-            "label": "id:player3Discard", 
+            "label": "id:player3Discard",
             "tableLabel": "id:discard",
             "onCardEnter": {
                 "controller": "player3",
@@ -191,7 +189,7 @@
         },
         "player3PlayArea": {
             "groupType": "inPlay",
-            "label": "id:player3PlayArea", 
+            "label": "id:player3PlayArea",
             "tableLabel": "id:player3PlayArea",
             "canHaveAttachments": true,
             "onCardEnter": {
@@ -200,7 +198,7 @@
         },
         "player4Hand": {
             "groupType": "hand",
-            "label": "id:player4Hand", 
+            "label": "id:player4Hand",
             "tableLabel": "id:hand",
             "onCardEnter": {
                 "controller": "player4",
@@ -210,7 +208,7 @@
         },
         "player4Deck": {
             "groupType": "deck",
-            "label": "id:player4Deck", 
+            "label": "id:player4Deck",
             "tableLabel": "id:deck",
             "onCardEnter": {
                 "controller": "player4",
@@ -220,7 +218,7 @@
         },
         "player4Discard": {
             "groupType": "discard",
-            "label": "id:player4Discard", 
+            "label": "id:player4Discard",
             "tableLabel": "id:discard",
             "onCardEnter": {
                 "controller": "player4",
@@ -230,7 +228,7 @@
         },
         "player4PlayArea": {
             "groupType": "inPlay",
-            "label": "id:player4PlayArea", 
+            "label": "id:player4PlayArea",
             "tableLabel": "id:player4PlayArea",
             "canHaveAttachments": true,
             "onCardEnter": {

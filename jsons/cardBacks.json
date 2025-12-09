@@ -1,19 +1,14 @@
 {
     "cardBacks": {
-        "red_card_back": {
-            "width": 0.72,
-            "height": 1.0,
-            "imageUrl": "https://m.media-amazon.com/images/I/6188fXzI+DL._AC_UF894,1000_QL80_.jpg"
-        },
         "Player": {
             "height": 1.0,
             "imageUrl": "https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/refs/heads/main/cards/playerCardBack.jpg",
-            "width": 1.0
+            "width": 0.72
         },
         "Villain": {
             "height": 1.0,
             "imageUrl": "https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/refs/heads/main/cards/villainCardBack.jpg",
-            "width": 1.0
+            "width": 0.72
         }
     }
 }

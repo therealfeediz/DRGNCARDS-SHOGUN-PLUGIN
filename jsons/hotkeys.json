@@ -5,7 +5,8 @@
             {"key": "2", "tokenType": "testToken2", "label": "icon(https://dragncards-lotrlcg.s3.amazonaws.com/tokens/damage.png)"}
         ],
         "game": [
-            {"key": "S", "actionList": "computeScore", "label": "id:computeScore"}
+            {"key": "S", "actionList": "computeScore", "label": "id:computeScore"},
+            {"key": "E", "actionList": "drawBoost", "label": "id:drawBoost"}
         ],
         "card": [
             {"key": "A", "actionList": "toggleExhaust", "label": "id:exhaustOrReady"},
