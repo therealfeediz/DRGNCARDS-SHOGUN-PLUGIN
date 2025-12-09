@@ -1,7 +1,9 @@
 {
     "faceProperties": {
-        "numberValue" : {"type": "integer", "default": 0},
-        "rank" : {"type": "integer", "default": 0},
-        "suit" : {"type": "string", "default": ""}
+        "boost": {
+            "label": "id:boost",
+            "type": "integer",
+            "default": 0
+        }
     }
 }

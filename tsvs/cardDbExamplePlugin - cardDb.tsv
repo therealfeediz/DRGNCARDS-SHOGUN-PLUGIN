@@ -1,66 +1,16 @@
-databaseId	name	imageUrl	cardBack	type	suit	rank	numberValue
-hero_id1	Kenji	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/kenji.jpg	Player	Hero	clubs	13	1
-ally_id1	Yuki	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/yuki.jpg	Player	Ally	clubs	11	3
-upgrade_id1	Katana	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/katana.jpg	Player	Upgrade	clubs	10	4
-support_id1	Tranquil Garden	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/tranquil_garden.jpg	Player	Support	clubs	9	5
-event_id1	Inner Strength	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/inner_strength.jpg	Player	Event	clubs	8	6
-event_id2	Iron Will	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/iron_will.jpg	Player	Event	clubs	7	7
-villain_id1	Shinjo	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/shinjo.jpg	Villain	Villain	clubs	6	8
-encounter_id1	Savage Swing	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/savage_swing.jpg	Villain	Encounter	clubs	5	9
-status_id1	Murderous Rage	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/murderous_rage.jpg	Villain	Status	clubs	5	9
-minion_id1	Oni Demon	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/oni_demon.jpg	Villain	Minion	clubs	4	10
-location_id1	Unstable Ground	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/unstable_ground.jpg	Villain	Location	clubs	4	10
-ace_of_clubs	ace of clubs	ace_of_clubs.png	red_card_back	Ace	clubs	13	1
-2_of_clubs	2 of clubs	2_of_clubs.png	red_card_back	Number	clubs	12	2
-3_of_clubs	3 of clubs	3_of_clubs.png	red_card_back	Number	clubs	11	3
-4_of_clubs	4 of clubs	4_of_clubs.png	red_card_back	Number	clubs	10	4
-5_of_clubs	5 of clubs	5_of_clubs.png	red_card_back	Number	clubs	9	5
-6_of_clubs	6 of clubs	6_of_clubs.png	red_card_back	Number	clubs	8	6
-7_of_clubs	7 of clubs	7_of_clubs.png	red_card_back	Number	clubs	7	7
-8_of_clubs	8 of clubs	8_of_clubs.png	red_card_back	Number	clubs	6	8
-9_of_clubs	9 of clubs	9_of_clubs.png	red_card_back	Number	clubs	5	9
-10_of_clubs	10 of clubs	10_of_clubs.png	red_card_back	Number	clubs	4	10
-jack_of_clubs	jack of clubs	jack_of_clubs.png	red_card_back	Face	clubs	3	10
-queen_of_clubs	queen of clubs	queen_of_clubs.png	red_card_back	Face	clubs	2	10
-king_of_clubs	king of clubs	king_of_clubs.png	red_card_back	Face	clubs	1	10
-ace_of_diamonds	ace of diamonds	ace_of_diamonds.png	red_card_back	Ace	diamonds	13	1
-2_of_diamonds	2 of diamonds	2_of_diamonds.png	red_card_back	Number	diamonds	12	2
-3_of_diamonds	3 of diamonds	3_of_diamonds.png	red_card_back	Number	diamonds	11	3
-4_of_diamonds	4 of diamonds	4_of_diamonds.png	red_card_back	Number	diamonds	10	4
-5_of_diamonds	5 of diamonds	5_of_diamonds.png	red_card_back	Number	diamonds	9	5
-6_of_diamonds	6 of diamonds	6_of_diamonds.png	red_card_back	Number	diamonds	8	6
-7_of_diamonds	7 of diamonds	7_of_diamonds.png	red_card_back	Number	diamonds	7	7
-8_of_diamonds	8 of diamonds	8_of_diamonds.png	red_card_back	Number	diamonds	6	8
-9_of_diamonds	9 of diamonds	9_of_diamonds.png	red_card_back	Number	diamonds	5	9
-10_of_diamonds	10 of diamonds	10_of_diamonds.png	red_card_back	Number	diamonds	4	10
-jack_of_diamonds	jack of diamonds	jack_of_diamonds.png	red_card_back	Face	diamonds	3	10
-queen_of_diamonds	queen of diamonds	queen_of_diamonds.png	red_card_back	Face	diamonds	2	10
-king_of_diamonds	king of diamonds	king_of_diamonds.png	red_card_back	Face	diamonds	1	10
-ace_of_hearts	ace of hearts	ace_of_hearts.png	red_card_back	Ace	hearts	13	1
-2_of_hearts	2 of hearts	2_of_hearts.png	red_card_back	Number	hearts	12	2
-3_of_hearts	3 of hearts	3_of_hearts.png	red_card_back	Number	hearts	11	3
-4_of_hearts	4 of hearts	4_of_hearts.png	red_card_back	Number	hearts	10	4
-5_of_hearts	5 of hearts	5_of_hearts.png	red_card_back	Number	hearts	9	5
-6_of_hearts	6 of hearts	6_of_hearts.png	red_card_back	Number	hearts	8	6
-7_of_hearts	7 of hearts	7_of_hearts.png	red_card_back	Number	hearts	7	7
-8_of_hearts	8 of hearts	8_of_hearts.png	red_card_back	Number	hearts	6	8
-9_of_hearts	9 of hearts	9_of_hearts.png	red_card_back	Number	hearts	5	9
-10_of_hearts	10 of hearts	10_of_hearts.png	red_card_back	Number	hearts	4	10
-jack_of_hearts	jack of hearts	jack_of_hearts.png	red_card_back	Face	hearts	3	10
-queen_of_hearts	queen of hearts	queen_of_hearts.png	red_card_back	Face	hearts	2	10
-king_of_hearts	king of hearts	king_of_hearts.png	red_card_back	Face	hearts	1	10
-ace_of_spades	ace of spades	ace_of_spades.png	red_card_back	Ace	spades	13	1
-2_of_spades	2 of spades	2_of_spades.png	red_card_back	Number	spades	12	2
-3_of_spades	3 of spades	3_of_spades.png	red_card_back	Number	spades	11	3
-4_of_spades	4 of spades	4_of_spades.png	red_card_back	Number	spades	10	4
-5_of_spades	5 of spades	5_of_spades.png	red_card_back	Number	spades	9	5
-6_of_spades	6 of spades	6_of_spades.png	red_card_back	Number	spades	8	6
-7_of_spades	7 of spades	7_of_spades.png	red_card_back	Number	spades	7	7
-8_of_spades	8 of spades	8_of_spades.png	red_card_back	Number	spades	6	8
-9_of_spades	9 of spades	9_of_spades.png	red_card_back	Number	spades	5	9
-10_of_spades	10 of spades	10_of_spades.png	red_card_back	Number	spades	4	10
-jack_of_spades	jack of spades	jack_of_spades.png	red_card_back	Face	spades	3	10
-queen_of_spades	queen of spades	queen_of_spades.png	red_card_back	Face	spades	2	10
-king_of_spades	king of spades	king_of_spades.png	red_card_back	Face	spades	1	10
-black_joker	black joker	black_joker.png	red_card_back	Joker	joker	0	0
-red_joker	red joker	red_joker.png	red_card_back	Joker	joker	0	0
+databaseId	name	imageUrl	cardBack	type	value
+hero_id1	Kenji	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/kenji.jpg	Player	Hero	0
+ally_id1	Yuki	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/yuki.jpg	Player	Ally	0
+upgrade_id1	Katana	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/katana.jpg	Player	Upgrade	0
+support_id1	Tranquil Garden	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/tranquil_garden.jpg	Player	Support	0
+event_id1	Inner Strength	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/inner_strength.jpg	Player	Event	0
+event_id2	Iron Will	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/iron_will.jpg	Player	Event	0
+villain_id1	Shinjo	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/shinjo.jpg	Villain	Villain	0
+encounter_id1	Savage Swing	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/savage_swing.jpg	Villain	Encounter	0
+status_id1	Murderous Rage	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/murderous_rage.jpg	Villain	Status	0
+minion_id1	Oni Demon	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/oni_demon.jpg	Villain	Minion	0
+location_id1	Unstable Ground	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/unstable_ground.jpg	Villain	Location	0
+boost_card0_id1	Boost0	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/boost_0.jpg	Villain	Encounter	0
+boost_card1_id2	Boost1	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/boost_1.jpg	Villain	Encounter	1
+boost_card2_id3	Boost2	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/boost_2.jpg	Villain	Encounter	2
+boost_card3_id4	Boost3	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/boost_3.jpg	Villain	Encounter	3

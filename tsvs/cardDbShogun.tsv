@@ -1,12 +1,16 @@
-databaseId	name	imageUrl	cardBack	type	
-unique_id1	Kenji	51223bd0-ffd1-11df-a976-0801200c9001.jpg.jpg	Player	Hero	
-unique_id2	Yuki	51223bd0-ffd1-11df-a976-0801200c9014.jpg	Player	Ally	
-unique_id3	Katana	51223bd0-ffd1-11df-a976-0801200c9041.jpg	Player	Upgrade	
-unique_id4	Tranquil Garden	51223bd0-ffd1-11df-a976-0801200c9055.jpg	Player	Support	
-unique_id5	Inner Strength	51223bd0-ffd1-11df-a976-0801200c9053.jpg	Player	Event	
-unique_id6	Iron Will	51223bd0-ffd1-11df-a976-0801200c9048.jpg	Player	Event	
-unique_id7	Shinjo	51223bd0-ffd1-11df-a976-0801200c9090.jpg	Villain	Villain	
-unique_id8	Savage Swing	51223bd0-ffd1-11df-a976-0801200c9079.jpg	Villain	Encounter	
-unique_id9	Murderous Rage	51223bd0-ffd1-11df-a976-0801200c9104.jpg	Villain	Status	
-unique_id10	Oni Demon	51223bd0-ffd1-11df-a976-0801200c9096.jpg	Villain	Minion	
-unique_id11	Unstable Ground	51223bd0-ffd1-11df-a976-0801200c9099.jpg	Villain	Location	
+databaseId	name	imageUrl	cardBack	type	boost
+hero_id1	Kenji	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/kenji.jpg	Player	Hero	0
+ally_id1	Yuki	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/yuki.jpg	Player	Ally	0
+upgrade_id1	Katana	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/katana.jpg	Player	Upgrade	0
+support_id1	Tranquil Garden	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/tranquil_garden.jpg	Player	Support	0
+event_id1	Inner Strength	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/inner_strength.jpg	Player	Event	0
+event_id2	Iron Will	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/iron_will.jpg	Player	Event	0
+villain_id1	Shinjo	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/shinjo.jpg	Villain	Villain	0
+encounter_id1	Savage Swing	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/savage_swing.jpg	Villain	Encounter	0
+status_id1	Murderous Rage	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/murderous_rage.jpg	Villain	Status	0
+minion_id1	Oni Demon	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/oni_demon.jpg	Villain	Minion	0
+location_id1	Unstable Ground	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/unstable_ground.jpg	Villain	Location	0
+boost_card0_id1	Boost0	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/boost_0.jpg	Villain	Encounter	0
+boost_card1_id1	Boost1	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/boost_1.jpg	Villain	Encounter	1
+boost_card2_id1	Boost2	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/boost_2.jpg	Villain	Encounter	2
+boost_card3_id1	Boost3	https://raw.githubusercontent.com/therealfeediz/DRGNCARDS-SHOGUN-PLUGIN/main/cards/boost_3.jpg	Villain	Encounter	3

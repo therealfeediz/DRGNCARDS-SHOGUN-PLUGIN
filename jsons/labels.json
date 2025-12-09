@@ -3,6 +3,9 @@
         "shogunStarterDeck": {
             "English": "Shogun Starter Deck"
         },
+        "villainBoostTest20": {
+            "English": "Villain Boost Test (20 cards)"
+        },
         "battleGround": {
             "English": "Battle Ground"
         },
@@ -14,6 +17,9 @@
         },
         "villainDeck": {
             "English": "Villain Deck"
+        },
+        "boost": {
+            "English": "Boost"
         },
         "warDeck": {
             "English": "War Deck"

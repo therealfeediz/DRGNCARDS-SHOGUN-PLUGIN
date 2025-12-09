@@ -2,11 +2,11 @@
     "deckMenu": {
         "subMenus": [
             {   
-                "label": "Standard 52 Card Deck",
+                "label": "SHOGUN",
                 "deckLists": [
                     {"label": "id:shogunStarterDeck", "deckListId": "shogunStarterDeck"},
-                    {"label": "id:crazyEightsDeck", "deckListId": "crazyEightsDeck"},
-                    {"label": "id:warDeck", "deckListId": "warDeck"}
+                    {"label": "id:villainBoostTest20", "deckListId": "villainBoostTest20"}
+
                 ]
             }
         ]
